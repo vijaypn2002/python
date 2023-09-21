@@ -88,10 +88,74 @@
 
 
 
-k=1
-a=int(input('enter the number'))
-for i in range(0,a):
- for j in range(i):
-    print(k,end=' ')
-    k=k+1
- print(' ')
+# k=1
+# a=int(input('enter the number'))
+# for i in range(0,a):
+#  for j in range(i):
+#     print(k,end=' ')
+#     k=k+1
+#  print(' ')
+
+
+
+# a=int(input('enter the number'))
+# for i in range(1,a):
+#  for j in range(1,i):
+#    print(j,end=' ')
+#  for j in range(i,0,-1):
+#     print(j,end=' ')
+#  print(' ')
+#  for i in range(a,1):
+#   for j in range(i,1):
+
+
+# a=int(input('enter the number'))
+# for i in range(1,a):
+#  for j in range(1,i,):
+#   print(j,end='')
+# for j in range(i,0,-1):
+#  print(j,end='')
+#  print('')
+
+# k='*'
+# a=int(input('enter the number'))
+# print('* ')
+# for i in range(k,a):
+#  for j in range(1,i):
+#    print(k)
+#    print(j,end=' ')
+#  for j in range(i,0,-1):
+#     print(j,end=' ')
+#  print('* ')
+
+ #find the longest word from a string
+
+a=str(input('enter the word'))
+a=a.split(' ')
+print(a)
+b=[]
+for i in a:
+    b.append(len(i))
+
+
+print('the longest word in the sting is ',a[b.index(max(b))],'with length of',max(b) )
+# print(a[b.index(max(b))])
+
+
+
+
+
+
+
+
+
+
+
+# print(a[a.index(max(a))],'maximum value is ',max(a))
+# b=[]
+# for i in a:
+#     b.append(len(i))
+# print(b)
+# print(b[b.index(max(b))],'maximum value is ',max(b))
+# print(max(b))
+
