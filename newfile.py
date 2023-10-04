@@ -1,7 +1,7 @@
 # http://127.0.0.1:5500/newwork/newwork.html
 
-#a=int(input("enter any number"))
-#for i in range(6):
+# a=int(input("enter any number"))
+# for i in range(6):
 # print('*'*i)
 
 # i=[5,4,3,6,7,3,2,1]
@@ -130,16 +130,16 @@
 
  #find the longest word from a string
 
-a=str(input('enter the word'))
-a=a.split(' ')
-print(a)
-b=[]
-for i in a:
-    b.append(len(i))
+# a=str(input('enter the word'))
+# a=a.split(' ')
+# print(a)
+# b=[]
+# for i in a:
+#     b.append(len(i))
 
 
-print('the longest word in the sting is ',a[b.index(max(b))],'with length of',max(b) )
-# print(a[b.index(max(b))])
+# print('the longest word in the sting is ',a[b.index(max(b))],'with length of',max(b) )
+# # print(a[b.index(max(b))])
 
 
 
