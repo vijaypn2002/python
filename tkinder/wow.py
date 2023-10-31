@@ -1,0 +1,37 @@
+from turtle import *
+tk=Turtle()
+for i in range(2):
+ tk.right(90)
+ tk.forward(120)
+ tk.right(90)
+ tk.forward(120)
+
+tk.right(90)
+tk.forward(100)
+tk.right(90)
+tk.forward(100)
+tk.right(90)
+tk.forward(120)
+tk.right(90)
+tk.forward(120)
+tk.right(90)
+tk.forward(120)
+tk.right(90)
+tk.forward(120)
+
+tk.right(320)
+tk.forward(30)
+tk.left(140)
+tk.forward(122)
+tk.right(320)
+tk.forward(30)
+
+tk.right(309)
+tk.forward(120)
+tk.right(220)
+tk.forward(30)
+tk.right(51)
+tk.forward(120)
+tk.right(138)
+tk.forward(35)
+
