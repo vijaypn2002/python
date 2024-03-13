@@ -1,4 +1,4 @@
-
+#bank
 bank=[]
 thisdict ={
         "name":"",
